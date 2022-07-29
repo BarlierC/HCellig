@@ -24,7 +24,7 @@ install.packages("devtools")
 library(devtools)
 
 #Install HCellig from GitHub
-install.packages("BarlierC/HCellig")
+devtools::install_github("BarlierC/HCellig")
 ```
 
 ## Load the necesarry libraries
